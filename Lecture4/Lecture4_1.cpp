@@ -1,4 +1,23 @@
-sscode = passcode;
+#include<bits/stdc++.h>
+
+using namespace std;
+
+class student{
+
+  string passcode;
+  // int,char,string,float..
+  public :
+  string name;
+  int id;
+  student(){
+  }
+
+  student(string passcode,string name,int id){
+    this->name = name;
+    // age = a;
+    // i = id;
+    this->id = id;
+    this->passcode = passcode;
   }
 
   // student(string passcode,string name,int id): name(name),passcode(passcode),id(id)
